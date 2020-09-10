@@ -1,9 +1,12 @@
 # jacobianPlotter
 you need to make sure to checkout graphics submodule, do this by:
+```shell
 git clone --recursve ...
+```
 or after clone
+```shell
 git submodule update --init --recursive
-
+```
 To run it for stuff that comes directly out of kmatrix:
 ```shell
 ./crisFsrSwirCrtm.py  --path $PWD/data --outpath $PWD/plots
